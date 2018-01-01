@@ -8,11 +8,18 @@ Because I couldn't be fucked fucking around with trying to get LIRC and Kodi and
 ## Prerequisites
 
 Ubuntu 17.x
-Kodi
+Kodi 17.x
+
+## Tested on
+
+Fresh Ubuntu 17.10 installation.
+Fresh Kodi 17.6 installation.
 
 ## DO NOT INSTALL LIRC, IT IS NOT REQUIRED FOR THIS TO WORK CORRECTLY.
 
 `apt-get remove *lirc* --purge`
+
+Also get rid of any keymap files you have in your user's .kodi directory. They aren't required.
 
 ## Installation
 
