@@ -1,19 +1,9 @@
 # kodi-rc6-mce-nolirc
 Files required to use most RC6 MCE remotes with Kodi and Ubuntu 17, without LIRC.
 
-## Why?
+## Supported OS/Hardware
 
-Because I couldn't be fucked fucking around with trying to get LIRC and Kodi and devinput working with Ubuntu 17.
-
-## Prerequisites
-
-Ubuntu 17.x
-Kodi 17.x
-
-## Tested on
-
-Fresh Ubuntu 17.10 installation.
-Fresh Kodi 17.6 installation.
+See [Wiki](https://github.com/clontarfx/kodi-rc6-mce-nolirc/wiki/Supported-OS-Kodi-Hardware)
 
 ## DO NOT INSTALL LIRC, IT IS NOT REQUIRED FOR THIS TO WORK CORRECTLY.
 
@@ -28,12 +18,9 @@ Also get rid of any keymap files you have in your user's .kodi directory. They a
 . `sudo ir-keytable -c -w /etc/rc_keymaps/rc6_mce`
 3. Restart Kodi
 
-## Notes
+## Why?
 
-Only tested with the following device, however it should behave the same with most RC6 MCE remotes.
-
-. ID 0471:0815 Philips (or NXP) eHome Infrared Receiver
-(http://www.hauppauge.com/site/press/presspictures/Remote_MCE-black+receiver.jpg)
+Because I couldn't be fucked fucking around with trying to get LIRC and Kodi and devinput working with Ubuntu 17.
 
 ## Quick Modify Guide
 
