@@ -5,12 +5,6 @@ Files required to use most RC6 MCE remotes with Kodi and Ubuntu 17, without LIRC
 
 See [Wiki](https://github.com/clontarfx/kodi-rc6-mce-nolirc/wiki/Supported-OS-Kodi-Hardware)
 
-## DO NOT INSTALL LIRC, IT IS NOT REQUIRED FOR THIS TO WORK CORRECTLY.
-
-`apt-get remove lirc* --purge`
-
-Also get rid of any keymap files you have in your user's .kodi directory. They aren't required.
-
 ## Installation
 
 1. Copy rc6_mce to /etc/rc_keymaps/
