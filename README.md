@@ -7,7 +7,7 @@ See [Wiki](https://github.com/clontarfx/kodi-rc6-mce-nolirc/wiki/Supported-OS-Ko
 
 ## DO NOT INSTALL LIRC, IT IS NOT REQUIRED FOR THIS TO WORK CORRECTLY.
 
-`apt-get remove *lirc* --purge`
+`apt-get remove lirc* --purge`
 
 Also get rid of any keymap files you have in your user's .kodi directory. They aren't required.
 
