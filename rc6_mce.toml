@@ -1,6 +1,6 @@
 # table rc6_mce, type: RC6
 [[protocols]]
-name = "rc6_mce_custom"
+name = "rc6_mce_hauppauge"
 protocol = "rc6"
 variant = "rc6_mce"
 [protocols.scancodes]
@@ -16,7 +16,7 @@ variant = "rc6_mce"
 0x800f0409 = "KEY_9"
 0x800f040a = "KEY_DELETE"
 0x800f040b = "KEY_ENTER"
-0x800f040c = "KEY_SLEEP"
+0x800f040c = "KEY_S" #KEY_SLEEP
 0x800f040d = "KEY_ESC"
 0x800f040e = "KEY_MUTE"
 0x800f040f = "KEY_I"
@@ -40,7 +40,7 @@ variant = "rc6_mce"
 0x800f0421 = "KEY_RIGHT"
 0x800f0422 = "KEY_ENTER"
 0x800f0423 = "KEY_BACKSPACE"
-0x800f0424 = "KEY_O"
+0x800f0424 = "KEY_C" #KEY_O
 0x800f0425 = "KEY_H"
 0x800f0426 = "KEY_E"
 0x800f0427 = "KEY_ZOOM"
@@ -58,7 +58,7 @@ variant = "rc6_mce"
 0x800f044e = "KEY_PRINT"
 0x800f0450 = "KEY_RADIO"
 0x800f045a = "KEY_T"
-0x800f045b = "KEY_RED"
+0x800f045b = "KEY_O" #KEY_RED
 0x800f045c = "KEY_GREEN"
 0x800f045d = "KEY_YELLOW"
 0x800f045e = "KEY_BLUE"
